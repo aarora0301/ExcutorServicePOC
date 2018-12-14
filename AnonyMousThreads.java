@@ -26,11 +26,6 @@ public class AnonyMousThreads {
         for (int i = 0; i < 5; i++) {
           System.out.println("Thread Name :" + i);
 
-//          try{
-//            Thread.sleep(1);
-//          }
-//          catch(InterruptedException ex){}
-
         }
       }
     });

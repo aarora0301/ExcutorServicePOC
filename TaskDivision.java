@@ -38,7 +38,6 @@ public class TaskDivision {
 class Task implements Callable<String> {
 
   String mystr = Thread.currentThread().getName();
-
   public String call() throws Exception {
     Thread.sleep(3000000);
     return mystr + " in Execution";

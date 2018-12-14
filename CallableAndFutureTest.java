@@ -22,8 +22,7 @@ public class CallableAndFutureTest {
       if (f4.isDone()) {
         System.out.println("4. " + f4.get());
       } else {
-        System.out.println("waiting");
-      }
+        System.out.println("waiting"); }
       System.out.println("5. " + f5.get());
     } catch (Exception e) {
       e.printStackTrace();
